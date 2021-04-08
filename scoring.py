@@ -16,3 +16,5 @@ elif sc < 0.6:
 else:
 	print('Out of Range')
 	quit()
+
+	
