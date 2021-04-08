@@ -1,10 +1,13 @@
+name = input("What's your name?: ")
+
 def greet(lang):
   if lang == 'es':
-    print('Hola!')
+    return 'Hola!
   elif lang == 'fr':
-    print('Bonjour!')
+    return 'Bonjour!'
   else:
-    print('Hello')
-greet('en')
-greet('es')
-greet('fr')
+    return 'Hello'
+print(greet('en'), name)
+
+print(greet('es'), name)
+print(greet('fr'), name)
